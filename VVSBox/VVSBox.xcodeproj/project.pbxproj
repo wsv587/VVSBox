@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		54FD75801E360CBE001322F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD757F1E360CBE001322F7 /* main.m */; };
+		54FD75831E360CBE001322F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75821E360CBE001322F7 /* AppDelegate.m */; };
+		54FD75861E360CBE001322F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75851E360CBE001322F7 /* ViewController.m */; };
+		54FD75891E360CBE001322F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54FD75871E360CBE001322F7 /* Main.storyboard */; };
+		54FD758B1E360CBE001322F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54FD758A1E360CBE001322F7 /* Assets.xcassets */; };
+		54FD758E1E360CBE001322F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54FD758C1E360CBE001322F7 /* LaunchScreen.storyboard */; };
+		54FD75991E360CBE001322F7 /* VVSBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75981E360CBE001322F7 /* VVSBoxTests.m */; };
+		54FD75A41E360CBF001322F7 /* VVSBoxUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75A31E360CBF001322F7 /* VVSBoxUITests.m */; };
+		54FD75B71E360D49001322F7 /* VVSSizeToFitButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75B61E360D49001322F7 /* VVSSizeToFitButton.m */; };
+		54FD75BA1E360D53001322F7 /* VVSSizeToFitLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75B91E360D53001322F7 /* VVSSizeToFitLabel.m */; };
+		54FD75C31E3610B9001322F7 /* NSFileManager+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75C21E3610B9001322F7 /* NSFileManager+Extension.m */; };
+		54FD75C61E3610F7001322F7 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75C51E3610F7001322F7 /* NSString+Extension.m */; };
+		54FD75C91E361108001322F7 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75C81E361108001322F7 /* UIBarButtonItem+Extension.m */; };
+		54FD75CC1E361269001322F7 /* UITextView+Placeholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75CB1E361269001322F7 /* UITextView+Placeholder.m */; };
+		54FD75CF1E3612C2001322F7 /* UIView+frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75CE1E3612C2001322F7 /* UIView+frame.m */; };
+		54FD75D21E3612E1001322F7 /* UIToolbar+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75D11E3612E1001322F7 /* UIToolbar+Extension.m */; };
+		54FD75DB1E36190F001322F7 /* RegExCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75DA1E36190F001322F7 /* RegExCategories.m */; };
+		54FD75DE1E361993001322F7 /* RegularExpression.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75DD1E361993001322F7 /* RegularExpression.m */; };
+		54FD75E21E361AF1001322F7 /* MoneyConversionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75E11E361AF1001322F7 /* MoneyConversionTool.m */; };
+		54FD75E61E361BD4001322F7 /* TimeConversionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75E51E361BD4001322F7 /* TimeConversionTool.m */; };
+		54FD75EE1E361C4D001322F7 /* UIView+VVSFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75E91E361C4D001322F7 /* UIView+VVSFrame.m */; };
+		54FD75EF1E361C4D001322F7 /* VVSPopoverAnimationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75EB1E361C4D001322F7 /* VVSPopoverAnimationManager.m */; };
+		54FD75F01E361C4D001322F7 /* VVSPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75ED1E361C4D001322F7 /* VVSPresentationController.m */; };
+		54FD75FD1E361C93001322F7 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75FA1E361C93001322F7 /* GCDAsyncSocket.m */; };
+		54FD75FE1E361C93001322F7 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75FC1E361C93001322F7 /* GCDAsyncUdpSocket.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		54FD75951E360CBE001322F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54FD75731E360CBE001322F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54FD757A1E360CBE001322F7;
+			remoteInfo = VVSBox;
+		};
+		54FD75A01E360CBF001322F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 54FD75731E360CBE001322F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 54FD757A1E360CBE001322F7;
+			remoteInfo = VVSBox;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		54FD757B1E360CBE001322F7 /* VVSBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVSBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FD757F1E360CBE001322F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		54FD75811E360CBE001322F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		54FD75821E360CBE001322F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		54FD75841E360CBE001322F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		54FD75851E360CBE001322F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		54FD75881E360CBE001322F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		54FD758A1E360CBE001322F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		54FD758D1E360CBE001322F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		54FD758F1E360CBE001322F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54FD75941E360CBE001322F7 /* VVSBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VVSBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FD75981E360CBE001322F7 /* VVSBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVSBoxTests.m; sourceTree = "<group>"; };
+		54FD759A1E360CBE001322F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54FD759F1E360CBF001322F7 /* VVSBoxUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VVSBoxUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		54FD75A31E360CBF001322F7 /* VVSBoxUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VVSBoxUITests.m; sourceTree = "<group>"; };
+		54FD75A51E360CBF001322F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54FD75B51E360D49001322F7 /* VVSSizeToFitButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVSSizeToFitButton.h; sourceTree = "<group>"; };
+		54FD75B61E360D49001322F7 /* VVSSizeToFitButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVSSizeToFitButton.m; sourceTree = "<group>"; };
+		54FD75B81E360D53001322F7 /* VVSSizeToFitLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVSSizeToFitLabel.h; sourceTree = "<group>"; };
+		54FD75B91E360D53001322F7 /* VVSSizeToFitLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVSSizeToFitLabel.m; sourceTree = "<group>"; };
+		54FD75C11E3610B9001322F7 /* NSFileManager+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+Extension.h"; sourceTree = "<group>"; };
+		54FD75C21E3610B9001322F7 /* NSFileManager+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+Extension.m"; sourceTree = "<group>"; };
+		54FD75C41E3610F7001322F7 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		54FD75C51E3610F7001322F7 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		54FD75C71E361108001322F7 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		54FD75C81E361108001322F7 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		54FD75CA1E361269001322F7 /* UITextView+Placeholder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Placeholder.h"; sourceTree = "<group>"; };
+		54FD75CB1E361269001322F7 /* UITextView+Placeholder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Placeholder.m"; sourceTree = "<group>"; };
+		54FD75CD1E3612C2001322F7 /* UIView+frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+frame.h"; sourceTree = "<group>"; };
+		54FD75CE1E3612C2001322F7 /* UIView+frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frame.m"; sourceTree = "<group>"; };
+		54FD75D01E3612E1001322F7 /* UIToolbar+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+Extension.h"; sourceTree = "<group>"; };
+		54FD75D11E3612E1001322F7 /* UIToolbar+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+Extension.m"; sourceTree = "<group>"; };
+		54FD75D41E3614B3001322F7 /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		54FD75D51E3614DC001322F7 /* ColorHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorHeader.h; sourceTree = "<group>"; };
+		54FD75D61E36154E001322F7 /* ScreenHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenHeader.h; sourceTree = "<group>"; };
+		54FD75D71E361639001322F7 /* UserDefaultsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDefaultsHeader.h; sourceTree = "<group>"; };
+		54FD75D91E36190F001322F7 /* RegExCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegExCategories.h; sourceTree = "<group>"; };
+		54FD75DA1E36190F001322F7 /* RegExCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegExCategories.m; sourceTree = "<group>"; };
+		54FD75DC1E361993001322F7 /* RegularExpression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegularExpression.h; sourceTree = "<group>"; };
+		54FD75DD1E361993001322F7 /* RegularExpression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegularExpression.m; sourceTree = "<group>"; };
+		54FD75E01E361AF1001322F7 /* MoneyConversionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoneyConversionTool.h; sourceTree = "<group>"; };
+		54FD75E11E361AF1001322F7 /* MoneyConversionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneyConversionTool.m; sourceTree = "<group>"; };
+		54FD75E41E361BD4001322F7 /* TimeConversionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeConversionTool.h; sourceTree = "<group>"; };
+		54FD75E51E361BD4001322F7 /* TimeConversionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeConversionTool.m; sourceTree = "<group>"; };
+		54FD75E81E361C4D001322F7 /* UIView+VVSFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VVSFrame.h"; sourceTree = "<group>"; };
+		54FD75E91E361C4D001322F7 /* UIView+VVSFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VVSFrame.m"; sourceTree = "<group>"; };
+		54FD75EA1E361C4D001322F7 /* VVSPopoverAnimationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVSPopoverAnimationManager.h; sourceTree = "<group>"; };
+		54FD75EB1E361C4D001322F7 /* VVSPopoverAnimationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVSPopoverAnimationManager.m; sourceTree = "<group>"; };
+		54FD75EC1E361C4D001322F7 /* VVSPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VVSPresentationController.h; sourceTree = "<group>"; };
+		54FD75ED1E361C4D001322F7 /* VVSPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VVSPresentationController.m; sourceTree = "<group>"; };
+		54FD75F91E361C93001322F7 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		54FD75FA1E361C93001322F7 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		54FD75FB1E361C93001322F7 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		54FD75FC1E361C93001322F7 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		54FD75781E360CBE001322F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FD75911E360CBE001322F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FD759C1E360CBE001322F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		54FD75721E360CBE001322F7 = {
+			isa = PBXGroup;
+			children = (
+				54FD757D1E360CBE001322F7 /* VVSBox */,
+				54FD75971E360CBE001322F7 /* VVSBoxTests */,
+				54FD75A21E360CBF001322F7 /* VVSBoxUITests */,
+				54FD757C1E360CBE001322F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		54FD757C1E360CBE001322F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				54FD757B1E360CBE001322F7 /* VVSBox.app */,
+				54FD75941E360CBE001322F7 /* VVSBoxTests.xctest */,
+				54FD759F1E360CBF001322F7 /* VVSBoxUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		54FD757D1E360CBE001322F7 /* VVSBox */ = {
+			isa = PBXGroup;
+			children = (
+				54FD75BB1E360F75001322F7 /* HUD */,
+				54FD75E31E361BCA001322F7 /* Date */,
+				54FD75D31E3613CC001322F7 /* Macro */,
+				54FD75DF1E361AE9001322F7 /* Money */,
+				54FD75B41E360D3E001322F7 /* UILabel */,
+				54FD75B31E360D3E001322F7 /* UIButton */,
+				54FD75C01E361097001322F7 /* Category */,
+				54FD75E71E361C4D001322F7 /* PopoverAnimation */,
+				54FD75D81E361904001322F7 /* RegularExpression */,
+				54FD75F81E361C93001322F7 /* CocoaAsyncSocket */,
+				54FD75811E360CBE001322F7 /* AppDelegate.h */,
+				54FD75821E360CBE001322F7 /* AppDelegate.m */,
+				54FD75841E360CBE001322F7 /* ViewController.h */,
+				54FD75851E360CBE001322F7 /* ViewController.m */,
+				54FD75871E360CBE001322F7 /* Main.storyboard */,
+				54FD758A1E360CBE001322F7 /* Assets.xcassets */,
+				54FD758C1E360CBE001322F7 /* LaunchScreen.storyboard */,
+				54FD758F1E360CBE001322F7 /* Info.plist */,
+				54FD757E1E360CBE001322F7 /* Supporting Files */,
+			);
+			path = VVSBox;
+			sourceTree = "<group>";
+		};
+		54FD757E1E360CBE001322F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				54FD757F1E360CBE001322F7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		54FD75971E360CBE001322F7 /* VVSBoxTests */ = {
+			isa = PBXGroup;
+			children = (
+				54FD75981E360CBE001322F7 /* VVSBoxTests.m */,
+				54FD759A1E360CBE001322F7 /* Info.plist */,
+			);
+			path = VVSBoxTests;
+			sourceTree = "<group>";
+		};
+		54FD75A21E360CBF001322F7 /* VVSBoxUITests */ = {
+			isa = PBXGroup;
+			children = (
+				54FD75A31E360CBF001322F7 /* VVSBoxUITests.m */,
+				54FD75A51E360CBF001322F7 /* Info.plist */,
+			);
+			path = VVSBoxUITests;
+			sourceTree = "<group>";
+		};
+		54FD75B31E360D3E001322F7 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				54FD75B51E360D49001322F7 /* VVSSizeToFitButton.h */,
+				54FD75B61E360D49001322F7 /* VVSSizeToFitButton.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		54FD75B41E360D3E001322F7 /* UILabel */ = {
+			isa = PBXGroup;
+			children = (
+				54FD75B81E360D53001322F7 /* VVSSizeToFitLabel.h */,
+				54FD75B91E360D53001322F7 /* VVSSizeToFitLabel.m */,
+			);
+			path = UILabel;
+			sourceTree = "<group>";
+		};
+		54FD75BB1E360F75001322F7 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HUD;
+			sourceTree = "<group>";
+		};
+		54FD75C01E361097001322F7 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				54FD75C41E3610F7001322F7 /* NSString+Extension.h */,
+				54FD75C51E3610F7001322F7 /* NSString+Extension.m */,
+				54FD75C11E3610B9001322F7 /* NSFileManager+Extension.h */,
+				54FD75C21E3610B9001322F7 /* NSFileManager+Extension.m */,
+				54FD75C71E361108001322F7 /* UIBarButtonItem+Extension.h */,
+				54FD75C81E361108001322F7 /* UIBarButtonItem+Extension.m */,
+				54FD75CA1E361269001322F7 /* UITextView+Placeholder.h */,
+				54FD75CB1E361269001322F7 /* UITextView+Placeholder.m */,
+				54FD75CD1E3612C2001322F7 /* UIView+frame.h */,
+				54FD75CE1E3612C2001322F7 /* UIView+frame.m */,
+				54FD75D01E3612E1001322F7 /* UIToolbar+Extension.h */,
+				54FD75D11E3612E1001322F7 /* UIToolbar+Extension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		54FD75D31E3613CC001322F7 /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				54FD75D41E3614B3001322F7 /* Header.h */,
+				54FD75D51E3614DC001322F7 /* ColorHeader.h */,
+				54FD75D61E36154E001322F7 /* ScreenHeader.h */,
+				54FD75D71E361639001322F7 /* UserDefaultsHeader.h */,
+			);
+			path = Macro;
+			sourceTree = "<group>";
+		};
+		54FD75D81E361904001322F7 /* RegularExpression */ = {
+			isa = PBXGroup;
+			children = (
+				54FD75DC1E361993001322F7 /* RegularExpression.h */,
+				54FD75DD1E361993001322F7 /* RegularExpression.m */,
+				54FD75D91E36190F001322F7 /* RegExCategories.h */,
+				54FD75DA1E36190F001322F7 /* RegExCategories.m */,
+			);
+			path = RegularExpression;
+			sourceTree = "<group>";
+		};
+		54FD75DF1E361AE9001322F7 /* Money */ = {
+			isa = PBXGroup;
+			children = (
+				54FD75E01E361AF1001322F7 /* MoneyConversionTool.h */,
+				54FD75E11E361AF1001322F7 /* MoneyConversionTool.m */,
+			);
+			path = Money;
+			sourceTree = "<group>";
+		};
+		54FD75E31E361BCA001322F7 /* Date */ = {
+			isa = PBXGroup;
+			children = (
+				54FD75E41E361BD4001322F7 /* TimeConversionTool.h */,
+				54FD75E51E361BD4001322F7 /* TimeConversionTool.m */,
+			);
+			path = Date;
+			sourceTree = "<group>";
+		};
+		54FD75E71E361C4D001322F7 /* PopoverAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				54FD75E81E361C4D001322F7 /* UIView+VVSFrame.h */,
+				54FD75E91E361C4D001322F7 /* UIView+VVSFrame.m */,
+				54FD75EA1E361C4D001322F7 /* VVSPopoverAnimationManager.h */,
+				54FD75EB1E361C4D001322F7 /* VVSPopoverAnimationManager.m */,
+				54FD75EC1E361C4D001322F7 /* VVSPresentationController.h */,
+				54FD75ED1E361C4D001322F7 /* VVSPresentationController.m */,
+			);
+			path = PopoverAnimation;
+			sourceTree = "<group>";
+		};
+		54FD75F81E361C93001322F7 /* CocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				54FD75F91E361C93001322F7 /* GCDAsyncSocket.h */,
+				54FD75FA1E361C93001322F7 /* GCDAsyncSocket.m */,
+				54FD75FB1E361C93001322F7 /* GCDAsyncUdpSocket.h */,
+				54FD75FC1E361C93001322F7 /* GCDAsyncUdpSocket.m */,
+			);
+			path = CocoaAsyncSocket;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		54FD757A1E360CBE001322F7 /* VVSBox */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54FD75A81E360CBF001322F7 /* Build configuration list for PBXNativeTarget "VVSBox" */;
+			buildPhases = (
+				54FD75771E360CBE001322F7 /* Sources */,
+				54FD75781E360CBE001322F7 /* Frameworks */,
+				54FD75791E360CBE001322F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VVSBox;
+			productName = VVSBox;
+			productReference = 54FD757B1E360CBE001322F7 /* VVSBox.app */;
+			productType = "com.apple.product-type.application";
+		};
+		54FD75931E360CBE001322F7 /* VVSBoxTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54FD75AB1E360CBF001322F7 /* Build configuration list for PBXNativeTarget "VVSBoxTests" */;
+			buildPhases = (
+				54FD75901E360CBE001322F7 /* Sources */,
+				54FD75911E360CBE001322F7 /* Frameworks */,
+				54FD75921E360CBE001322F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54FD75961E360CBE001322F7 /* PBXTargetDependency */,
+			);
+			name = VVSBoxTests;
+			productName = VVSBoxTests;
+			productReference = 54FD75941E360CBE001322F7 /* VVSBoxTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		54FD759E1E360CBE001322F7 /* VVSBoxUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 54FD75AE1E360CBF001322F7 /* Build configuration list for PBXNativeTarget "VVSBoxUITests" */;
+			buildPhases = (
+				54FD759B1E360CBE001322F7 /* Sources */,
+				54FD759C1E360CBE001322F7 /* Frameworks */,
+				54FD759D1E360CBE001322F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54FD75A11E360CBF001322F7 /* PBXTargetDependency */,
+			);
+			name = VVSBoxUITests;
+			productName = VVSBoxUITests;
+			productReference = 54FD759F1E360CBF001322F7 /* VVSBoxUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		54FD75731E360CBE001322F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VVS;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ws;
+				TargetAttributes = {
+					54FD757A1E360CBE001322F7 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					54FD75931E360CBE001322F7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 54FD757A1E360CBE001322F7;
+					};
+					54FD759E1E360CBE001322F7 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 54FD757A1E360CBE001322F7;
+					};
+				};
+			};
+			buildConfigurationList = 54FD75761E360CBE001322F7 /* Build configuration list for PBXProject "VVSBox" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 54FD75721E360CBE001322F7;
+			productRefGroup = 54FD757C1E360CBE001322F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				54FD757A1E360CBE001322F7 /* VVSBox */,
+				54FD75931E360CBE001322F7 /* VVSBoxTests */,
+				54FD759E1E360CBE001322F7 /* VVSBoxUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		54FD75791E360CBE001322F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FD758E1E360CBE001322F7 /* LaunchScreen.storyboard in Resources */,
+				54FD758B1E360CBE001322F7 /* Assets.xcassets in Resources */,
+				54FD75891E360CBE001322F7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FD75921E360CBE001322F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FD759D1E360CBE001322F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		54FD75771E360CBE001322F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FD75DE1E361993001322F7 /* RegularExpression.m in Sources */,
+				54FD75F01E361C4D001322F7 /* VVSPresentationController.m in Sources */,
+				54FD75E61E361BD4001322F7 /* TimeConversionTool.m in Sources */,
+				54FD75C91E361108001322F7 /* UIBarButtonItem+Extension.m in Sources */,
+				54FD75DB1E36190F001322F7 /* RegExCategories.m in Sources */,
+				54FD75861E360CBE001322F7 /* ViewController.m in Sources */,
+				54FD75831E360CBE001322F7 /* AppDelegate.m in Sources */,
+				54FD75E21E361AF1001322F7 /* MoneyConversionTool.m in Sources */,
+				54FD75801E360CBE001322F7 /* main.m in Sources */,
+				54FD75EF1E361C4D001322F7 /* VVSPopoverAnimationManager.m in Sources */,
+				54FD75BA1E360D53001322F7 /* VVSSizeToFitLabel.m in Sources */,
+				54FD75C31E3610B9001322F7 /* NSFileManager+Extension.m in Sources */,
+				54FD75EE1E361C4D001322F7 /* UIView+VVSFrame.m in Sources */,
+				54FD75B71E360D49001322F7 /* VVSSizeToFitButton.m in Sources */,
+				54FD75CC1E361269001322F7 /* UITextView+Placeholder.m in Sources */,
+				54FD75CF1E3612C2001322F7 /* UIView+frame.m in Sources */,
+				54FD75FE1E361C93001322F7 /* GCDAsyncUdpSocket.m in Sources */,
+				54FD75D21E3612E1001322F7 /* UIToolbar+Extension.m in Sources */,
+				54FD75FD1E361C93001322F7 /* GCDAsyncSocket.m in Sources */,
+				54FD75C61E3610F7001322F7 /* NSString+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FD75901E360CBE001322F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FD75991E360CBE001322F7 /* VVSBoxTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54FD759B1E360CBE001322F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54FD75A41E360CBF001322F7 /* VVSBoxUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		54FD75961E360CBE001322F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54FD757A1E360CBE001322F7 /* VVSBox */;
+			targetProxy = 54FD75951E360CBE001322F7 /* PBXContainerItemProxy */;
+		};
+		54FD75A11E360CBF001322F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 54FD757A1E360CBE001322F7 /* VVSBox */;
+			targetProxy = 54FD75A01E360CBF001322F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		54FD75871E360CBE001322F7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54FD75881E360CBE001322F7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		54FD758C1E360CBE001322F7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				54FD758D1E360CBE001322F7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		54FD75A61E360CBF001322F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		54FD75A71E360CBF001322F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		54FD75A91E360CBF001322F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VVSBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alibaba.VVSBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		54FD75AA1E360CBF001322F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VVSBox/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alibaba.VVSBox;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		54FD75AC1E360CBF001322F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VVSBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alibaba.VVSBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VVSBox.app/VVSBox";
+			};
+			name = Debug;
+		};
+		54FD75AD1E360CBF001322F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VVSBoxTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alibaba.VVSBoxTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VVSBox.app/VVSBox";
+			};
+			name = Release;
+		};
+		54FD75AF1E360CBF001322F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VVSBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alibaba.VVSBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VVSBox;
+			};
+			name = Debug;
+		};
+		54FD75B01E360CBF001322F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VVSBoxUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alibaba.VVSBoxUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = VVSBox;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		54FD75761E360CBE001322F7 /* Build configuration list for PBXProject "VVSBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FD75A61E360CBF001322F7 /* Debug */,
+				54FD75A71E360CBF001322F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54FD75A81E360CBF001322F7 /* Build configuration list for PBXNativeTarget "VVSBox" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FD75A91E360CBF001322F7 /* Debug */,
+				54FD75AA1E360CBF001322F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54FD75AB1E360CBF001322F7 /* Build configuration list for PBXNativeTarget "VVSBoxTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FD75AC1E360CBF001322F7 /* Debug */,
+				54FD75AD1E360CBF001322F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		54FD75AE1E360CBF001322F7 /* Build configuration list for PBXNativeTarget "VVSBoxUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				54FD75AF1E360CBF001322F7 /* Debug */,
+				54FD75B01E360CBF001322F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 54FD75731E360CBE001322F7 /* Project object */;
+}
