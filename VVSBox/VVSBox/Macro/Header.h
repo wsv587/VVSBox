@@ -11,5 +11,7 @@
 #import "ColorHeader.h"
 #import "ScreenHeader.h"
 #import "UserDefaultsHeader.h"
+#import "CollectionCellHeader.h"
+
 
 #endif /* Header_h */

@@ -52,6 +52,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		54A476D81E376284004196F9 /* CollectionCellHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCellHeader.h; sourceTree = "<group>"; };
 		54FD757B1E360CBE001322F7 /* VVSBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVSBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FD757F1E360CBE001322F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		54FD75811E360CBE001322F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -256,6 +257,7 @@
 				54FD75D51E3614DC001322F7 /* ColorHeader.h */,
 				54FD75D61E36154E001322F7 /* ScreenHeader.h */,
 				54FD75D71E361639001322F7 /* UserDefaultsHeader.h */,
+				54A476D81E376284004196F9 /* CollectionCellHeader.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
