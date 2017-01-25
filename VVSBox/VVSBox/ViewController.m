@@ -8,9 +8,13 @@
 
 #import "ViewController.h"
 #import "Header.h"
+#import "VVSPopoverAnimationManager+Translation.h"
+#import "PopoverViewController.h"
 
 @interface ViewController ()
-
+{
+    VVSPopoverAnimationManager *_popoverManager;
+}
 @end
 
 @implementation ViewController
@@ -19,6 +23,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    PopoverViewController *toViewController = [PopoverViewController new];
+    VVSPopoverAnimationManager *popoverManager = [[VVSPopoverAnimationManager alloc] initWithFromViewController:self toController:toViewController];
+    [popoverManager setToViewSize:CGSizeMake([UIScreen mainScreen].bounds.size.width, 200) direction:VVSPopoverTranslationDown];
+    _popoverManager = popoverManager;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -26,4 +34,7 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [_popoverManager beginTranslation];
+}
 @end

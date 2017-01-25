@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		544CDA961E38ADB700A6484C /* VVSPopoverAnimationManager+Translation.m in Sources */ = {isa = PBXBuildFile; fileRef = 544CDA951E38ADB700A6484C /* VVSPopoverAnimationManager+Translation.m */; };
+		544CDA991E38B40C00A6484C /* PopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544CDA981E38B40C00A6484C /* PopoverViewController.m */; };
 		54FD75801E360CBE001322F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD757F1E360CBE001322F7 /* main.m */; };
 		54FD75831E360CBE001322F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75821E360CBE001322F7 /* AppDelegate.m */; };
 		54FD75861E360CBE001322F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75851E360CBE001322F7 /* ViewController.m */; };
@@ -52,6 +54,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		544CDA941E38ADB700A6484C /* VVSPopoverAnimationManager+Translation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "VVSPopoverAnimationManager+Translation.h"; sourceTree = "<group>"; };
+		544CDA951E38ADB700A6484C /* VVSPopoverAnimationManager+Translation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "VVSPopoverAnimationManager+Translation.m"; sourceTree = "<group>"; };
+		544CDA971E38B40C00A6484C /* PopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewController.h; sourceTree = "<group>"; };
+		544CDA981E38B40C00A6484C /* PopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewController.m; sourceTree = "<group>"; };
 		54A476D81E376284004196F9 /* CollectionCellHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCellHeader.h; sourceTree = "<group>"; };
 		54FD757B1E360CBE001322F7 /* VVSBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVSBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FD757F1E360CBE001322F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -171,6 +177,8 @@
 				54FD75821E360CBE001322F7 /* AppDelegate.m */,
 				54FD75841E360CBE001322F7 /* ViewController.h */,
 				54FD75851E360CBE001322F7 /* ViewController.m */,
+				544CDA971E38B40C00A6484C /* PopoverViewController.h */,
+				544CDA981E38B40C00A6484C /* PopoverViewController.m */,
 				54FD75871E360CBE001322F7 /* Main.storyboard */,
 				54FD758A1E360CBE001322F7 /* Assets.xcassets */,
 				54FD758C1E360CBE001322F7 /* LaunchScreen.storyboard */,
@@ -298,6 +306,8 @@
 				54FD75E91E361C4D001322F7 /* UIView+VVSFrame.m */,
 				54FD75EA1E361C4D001322F7 /* VVSPopoverAnimationManager.h */,
 				54FD75EB1E361C4D001322F7 /* VVSPopoverAnimationManager.m */,
+				544CDA941E38ADB700A6484C /* VVSPopoverAnimationManager+Translation.h */,
+				544CDA951E38ADB700A6484C /* VVSPopoverAnimationManager+Translation.m */,
 				54FD75EC1E361C4D001322F7 /* VVSPresentationController.h */,
 				54FD75ED1E361C4D001322F7 /* VVSPresentationController.m */,
 			);
@@ -449,6 +459,7 @@
 				54FD75DE1E361993001322F7 /* RegularExpression.m in Sources */,
 				54FD75F01E361C4D001322F7 /* VVSPresentationController.m in Sources */,
 				54FD75E61E361BD4001322F7 /* TimeConversionTool.m in Sources */,
+				544CDA961E38ADB700A6484C /* VVSPopoverAnimationManager+Translation.m in Sources */,
 				54FD75C91E361108001322F7 /* UIBarButtonItem+Extension.m in Sources */,
 				54FD75DB1E36190F001322F7 /* RegExCategories.m in Sources */,
 				54FD75861E360CBE001322F7 /* ViewController.m in Sources */,
@@ -459,6 +470,7 @@
 				54FD75BA1E360D53001322F7 /* VVSSizeToFitLabel.m in Sources */,
 				54FD75C31E3610B9001322F7 /* NSFileManager+Extension.m in Sources */,
 				54FD75EE1E361C4D001322F7 /* UIView+VVSFrame.m in Sources */,
+				544CDA991E38B40C00A6484C /* PopoverViewController.m in Sources */,
 				54FD75B71E360D49001322F7 /* VVSSizeToFitButton.m in Sources */,
 				54FD75CC1E361269001322F7 /* UITextView+Placeholder.m in Sources */,
 				54FD75CF1E3612C2001322F7 /* UIView+frame.m in Sources */,

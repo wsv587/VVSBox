@@ -288,7 +288,7 @@
     if (style == VVSTransitionAnimationStyleScaleFromCenter) {
         // scale(0.0001,0.0001) 代表距离锚点的距离,以下同理
         fromTransform = CGAffineTransformMakeScale(0.0001, 0.0001);
-    }else if (style == VVSTransitionAnimationStyleScaleFromTopCenter) {
+    } else if (style == VVSTransitionAnimationStyleScaleFromTopCenter) {
         fromTransform = CGAffineTransformMakeScale(0.0001, 0.0001);
     } else if (style == VVSTransitionAnimationStyleScaleFromLeftCenter) {
         fromTransform = CGAffineTransformMakeScale(0.0001, 0.0001);
