@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		544CDA961E38ADB700A6484C /* VVSPopoverAnimationManager+Translation.m in Sources */ = {isa = PBXBuildFile; fileRef = 544CDA951E38ADB700A6484C /* VVSPopoverAnimationManager+Translation.m */; };
 		544CDA991E38B40C00A6484C /* PopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 544CDA981E38B40C00A6484C /* PopoverViewController.m */; };
+		54F9A08F1E5EEE44004037D1 /* NSData+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F9A08C1E5EEE44004037D1 /* NSData+NSHash.m */; };
+		54F9A0901E5EEE44004037D1 /* NSString+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 54F9A08E1E5EEE44004037D1 /* NSString+NSHash.m */; };
 		54FD75801E360CBE001322F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD757F1E360CBE001322F7 /* main.m */; };
 		54FD75831E360CBE001322F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75821E360CBE001322F7 /* AppDelegate.m */; };
 		54FD75861E360CBE001322F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54FD75851E360CBE001322F7 /* ViewController.m */; };
@@ -59,6 +61,10 @@
 		544CDA971E38B40C00A6484C /* PopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverViewController.h; sourceTree = "<group>"; };
 		544CDA981E38B40C00A6484C /* PopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverViewController.m; sourceTree = "<group>"; };
 		54A476D81E376284004196F9 /* CollectionCellHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionCellHeader.h; sourceTree = "<group>"; };
+		54F9A08B1E5EEE44004037D1 /* NSData+NSHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NSHash.h"; sourceTree = "<group>"; };
+		54F9A08C1E5EEE44004037D1 /* NSData+NSHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSHash.m"; sourceTree = "<group>"; };
+		54F9A08D1E5EEE44004037D1 /* NSString+NSHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSHash.h"; sourceTree = "<group>"; };
+		54F9A08E1E5EEE44004037D1 /* NSString+NSHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSHash.m"; sourceTree = "<group>"; };
 		54FD757B1E360CBE001322F7 /* VVSBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VVSBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		54FD757F1E360CBE001322F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		54FD75811E360CBE001322F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -140,6 +146,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		54F9A08A1E5EEE44004037D1 /* NSHash */ = {
+			isa = PBXGroup;
+			children = (
+				54F9A08B1E5EEE44004037D1 /* NSData+NSHash.h */,
+				54F9A08C1E5EEE44004037D1 /* NSData+NSHash.m */,
+				54F9A08D1E5EEE44004037D1 /* NSString+NSHash.h */,
+				54F9A08E1E5EEE44004037D1 /* NSString+NSHash.m */,
+			);
+			path = NSHash;
+			sourceTree = "<group>";
+		};
 		54FD75721E360CBE001322F7 = {
 			isa = PBXGroup;
 			children = (
@@ -167,6 +184,7 @@
 				54FD75E31E361BCA001322F7 /* Date */,
 				54FD75D31E3613CC001322F7 /* Macro */,
 				54FD75DF1E361AE9001322F7 /* Money */,
+				54F9A08A1E5EEE44004037D1 /* NSHash */,
 				54FD75B41E360D3E001322F7 /* UILabel */,
 				54FD75B31E360D3E001322F7 /* UIButton */,
 				54FD75C01E361097001322F7 /* Category */,
@@ -457,6 +475,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54FD75DE1E361993001322F7 /* RegularExpression.m in Sources */,
+				54F9A08F1E5EEE44004037D1 /* NSData+NSHash.m in Sources */,
 				54FD75F01E361C4D001322F7 /* VVSPresentationController.m in Sources */,
 				54FD75E61E361BD4001322F7 /* TimeConversionTool.m in Sources */,
 				544CDA961E38ADB700A6484C /* VVSPopoverAnimationManager+Translation.m in Sources */,
@@ -475,6 +494,7 @@
 				54FD75CC1E361269001322F7 /* UITextView+Placeholder.m in Sources */,
 				54FD75CF1E3612C2001322F7 /* UIView+frame.m in Sources */,
 				54FD75FE1E361C93001322F7 /* GCDAsyncUdpSocket.m in Sources */,
+				54F9A0901E5EEE44004037D1 /* NSString+NSHash.m in Sources */,
 				54FD75D21E3612E1001322F7 /* UIToolbar+Extension.m in Sources */,
 				54FD75FD1E361C93001322F7 /* GCDAsyncSocket.m in Sources */,
 				54FD75C61E3610F7001322F7 /* NSString+Extension.m in Sources */,
