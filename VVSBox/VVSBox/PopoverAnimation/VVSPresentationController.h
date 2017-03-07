@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+NSString * const VVS_POPOVER_ANIMATION_DISMISS_COVER_NOTIFICATION = @"vvspopoveranimationdismisscovernotification";
 
 @interface VVSPresentationController : UIPresentationController
 /**

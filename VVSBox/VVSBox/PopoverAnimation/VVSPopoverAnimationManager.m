@@ -10,9 +10,6 @@
 #import "VVSPresentationController.h"
 #import "UIView+VVSFrame.h"
 
- NSString * const VVS_POPOVER_ANIMATION_DID_PRESENTED_NOTIFICATION = @"vvspopoveranimationdidpresentednotification";
- NSString * const VVS_POPOVER_ANIMATION_DID_DISMISSED_NOTIFICATION = @"vvspopoveranimationdiddismissednotification";
-
 @interface VVSPopoverAnimationManager ()<UIViewControllerTransitioningDelegate,UIViewControllerAnimatedTransitioning>
 {
     BOOL isPresented;

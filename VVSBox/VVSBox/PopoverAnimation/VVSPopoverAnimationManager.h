@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+NSString * const VVS_POPOVER_ANIMATION_DID_PRESENTED_NOTIFICATION = @"vvspopoveranimationdidpresentednotification";
+NSString * const VVS_POPOVER_ANIMATION_DID_DISMISSED_NOTIFICATION = @"vvspopoveranimationdiddismissednotification";
 
 typedef NS_ENUM(NSUInteger, VVSTransitionAnimationStyle) {
     

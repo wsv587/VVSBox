@@ -7,7 +7,6 @@
 //
 
 #import "VVSPresentationController.h"
-NSString * const VVS_POPOVER_ANIMATION_DISMISS_COVER_NOTIFICATION = @"vvspopoveranimationdismisscovernotification";
 
 @interface VVSPresentationController ()
 @property(nonatomic,strong) UIButton *cover;
