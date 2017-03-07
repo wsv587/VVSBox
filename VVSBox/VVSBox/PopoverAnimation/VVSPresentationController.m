@@ -7,6 +7,7 @@
 //
 
 #import "VVSPresentationController.h"
+NSString * const VVS_POPOVER_ANIMATION_DISMISS_COVER_NOTIFICATION = @"vvspopoveranimationdismisscovernotification";
 
 @interface VVSPresentationController ()
 @property(nonatomic,strong) UIButton *cover;
@@ -29,6 +30,9 @@
     if (self.hasConverView) {
         // 1.添加蒙版
         [self.containerView insertSubview:self.cover atIndex:0];
+        [UIView animateWithDuration:0.2 animations:^{
+            _cover.backgroundColor = [UIColor colorWithWhite:0.5 alpha:0.2];
+        }];
         // 2.设置蒙版frame
         self.cover.frame = self.containerView.bounds;
     }
@@ -39,18 +43,23 @@
 #pragma mark - private
 - (void)dismiss {
     if (self.isConverViewResponse) {
+        [UIView animateWithDuration:0.2 animations:^{
+            _cover.backgroundColor = [UIColor clearColor];
+        }];
         [self.presentedViewController dismissViewControllerAnimated:YES completion:nil];
+        [[NSNotificationCenter defaultCenter] postNotificationName:VVS_POPOVER_ANIMATION_DISMISS_COVER_NOTIFICATION object:nil];
     }
-//    else {
-//        [self.presentedViewController dismissViewControllerAnimated:NO completion:nil];
-//    }
-
+    //    else {
+    //        [self.presentedViewController dismissViewControllerAnimated:NO completion:nil];
+    //    }
+    
 }
-#pragma mark - lazy 
+#pragma mark - lazy
 - (UIButton *)cover {
     if (!_cover) {
         _cover = [[UIButton alloc] init];
-        _cover.backgroundColor = [UIColor colorWithWhite:0.5 alpha:0.2];
+        //        _cover.backgroundColor = [UIColor colorWithWhite:0.5 alpha:0.2];
+        _cover.backgroundColor = [UIColor clearColor];
         [_cover addTarget:self action:@selector(dismiss) forControlEvents:UIControlEventTouchUpInside];
     }
     return _cover;
